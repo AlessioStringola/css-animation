@@ -1,0 +1,153 @@
+body{
+    background-color: black;
+}
+.img1{
+    height: 127px;
+}
+.div1{
+    animation-name: giovanni;
+    animation-duration: 3.7s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+@keyframes giovanni{
+    from{transform:translate(0px);}
+    to{transform:translate(150px);}
+}
+.div2{
+    animation-name: giovanni2;
+    animation-duration: 3.7s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+@keyframes giovanni2{
+    from{transform:translate(0px);}
+    to{transform:translate(-150px);}
+}
+.img2{
+    animation: giovanni3 3.7s ease-in-out infinite;
+}
+@keyframes giovanni3{
+    from{transform:translate(0px);}
+    to{transform:translate(359px);}
+}
+.img3{
+    animation: giovanni4 3.7s linear infinite;
+}
+@keyframes giovanni4{
+    from{transform:translate(0px);}
+    to{transform:translate(-359px);}
+}
+header{
+    height: 100vh;
+    background-image: url(./media/immagine1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: rgb(123, 181, 37);
+}
+.div3{
+    height: 500px;
+}
+h1{
+    font-size: 60px;
+    color: #d55a91;
+    font-weight: bold;
+}
+.img-1{
+    height: 617px;
+    width: 95%;
+}
+.img--1:hover{
+    animation-name: giovanni5;
+    animation-duration: 1.9s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes giovanni5{
+    from{transform:translate(0px);}
+    to{transform:translate(-359px);}
+}
+.img--2:hover{
+    animation-name: giovanni6;
+    animation-duration: 1.9s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes giovanni6{
+    from{transform:scale(1);}
+    to{transform:scale(2.5);}
+}
+h2{
+    font-size: 60px;
+    color: #d55a91;
+    font-weight: bold;
+}
+.sec-1{
+    height: 100vh;
+    background-color: #7f66a4;
+}
+.triangolo::before{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0; 
+    line-height: 0;
+    border-bottom: 380px solid teal;
+    border-left:   380px solid green;
+    border-right:  380px solid red;
+}
+.img6{
+    height: 386px;
+    width: 100%;
+    animation:giovanni7 3.7s ease infinite;
+    animation-direction: alternate;
+}
+@keyframes giovanni7{
+    from{transform:translate(0px);}
+    to{transform:translate(517px);}
+}
+.sec-2{
+    height: 150vh;
+    background-color: #f29aa9;
+}
+.div4{
+    height: 1150px;
+}
+.img7{
+    height: 108px;
+}
+.img--7{
+    animation: giovanni8 2.3s ease infinite;
+}
+@keyframes giovanni8{
+    from{transform:translate(0px);}
+    to{transform:translate(309px,-173px);}
+}
+.sec-3{
+    height: 31vh;
+    background-color: #5e27ad;
+}
+footer{
+    height: 79vh;
+    background-color:blueviolet; 
+    border-top: 13.7px dashed green;  
+}
+.span-footer{
+    color: #fff;
+    text-decoration:none;
+    list-style: none;
+}
+.anchoore{
+    text-decoration:none;
+    list-style: none;
+}
+.list-footer{
+    list-style: lower-greek;
+    text-decoration: none;
+}
+main{
+    border-bottom: 13.7px dashed red;
+}
